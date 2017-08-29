@@ -42,11 +42,11 @@ twig:
 doctrine:
     dbal:
         driver: pdo_mysql
-        host: '%database_host%'
-        port: '%database_port%'
-        dbname: '%database_name%'
-        user: '%database_user%'
-        password: '%database_password%'
+        host: ec2-23-21-184-113.compute-1.amazonaws.com
+        port: 5432
+        dbname: d288nfudokp8cf
+        user: mjoabkvrxtcjpa
+        password: 1c23e4f596dfb4d29e537cae59a7febfdec947ec9dbf7a4144fd246d894b3e28
         charset: UTF8
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
